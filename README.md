@@ -20,7 +20,7 @@ Tested with v20.12.2
 * Run the frontend development server
 * Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### Running the Frontend 
+## Running the Frontend 
 
 Install dependencies 
 ```
@@ -30,7 +30,7 @@ Start the development server
 ```
 npm run dev
 ```
-### Contact
+## Contact
 Discord - @Helkem
 Gmail - helkemzero@gmail.com
 [https://twitter.com/Helkem]
