@@ -31,6 +31,6 @@ Start the development server
 npm run dev
 ```
 ## Contact
-Discord - @Helkem
-Gmail - helkemzero@gmail.com
-[https://twitter.com/Helkem]
+* Discord - @Helkem
+* Gmail - helkemzero@gmail.com
+* Twitter/X - [https://twitter.com/Helkem]
