@@ -15,7 +15,7 @@ Tested with v20.12.2
   
 ### Executing program
 * Run the frontend development server
-* Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 
 ## Running the Frontend 
 
