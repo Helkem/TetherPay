@@ -4,7 +4,7 @@ A Web3 React App to send Tether tokens to any ETH address.
 
 ## Description
 Connect your wallet and input a valid ETH address and send Tether tokens to anyone in the world.
-Uses the help of the Wagmi and viem libraries to interact with the Tether ERC20 smart contract, uses Rainbow kit to connect user Web3 Wallet
+Uses the help of the Wagmi and viem libraries to directly interact with the Tether ERC20 smart contract on ETH Mainet along with Rainbow kit to connect users Web3 Wallet
 This is built on the official Ethereum mainet so do not send any real tokens unless you would want to.
 
 ### Dependencies
