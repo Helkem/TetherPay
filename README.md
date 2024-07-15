@@ -8,7 +8,6 @@ Uses the help of the Wagmi and viem libraries to interact with the Tether ERC20 
 This is built on the official Ethereum mainet so do not send any real tokens unless you would want to.
 
 ### Dependencies
-* Requires Node.js
 * Requires Node Package Manager
 
 ### Node Version
