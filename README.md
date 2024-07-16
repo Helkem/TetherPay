@@ -7,6 +7,8 @@ Connect your wallet and input any valid ETH address to send Tether tokens to any
 Integrates the use of the Wagmi and Viem libraries to directly interact with the Tether ERC20 smart contract on ETH Mainnet along with Rainbow kit to connect the users Web3 Wallet.
 This application is built and connected to the official Ethereum mainet so do not send any real tokens unless you intend to.
 
+This application is built and connected to the official Ethereum mainet so do not send any real tokens unless you intend to.
+
 ### Dependencies
 * Requires Node Package Manager
 
