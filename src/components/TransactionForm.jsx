@@ -14,7 +14,8 @@ function TransactionForm({ userBalance }) {
   const { openConnectModal } = useConnectModal();
   const isValidEthAddress = /^0x[0-9A-Fa-f]{40}$/i.test(receiverAddress);
   const isValidAmount = isConnected && userBalance < amount;
-  const isButtonDisabled = isValidAmount || !isValidEthAddress;
+  const isButtonDisabled =
+    isValidAmount || (receiverAddress !== "" && !isValidEthAddress);
   const debouncedSendAmount = useDebounce(amount, 500);
   const debouncedReceiver = useDebounce(receiverAddress, 500);
   const tetherContract = "0xdac17f958d2ee523a2206206994597c13d831ec7";
@@ -38,7 +39,11 @@ function TransactionForm({ userBalance }) {
     <div className='formBox'>
       <div className='formHeading'>
         <span className='formTitles'>Send Tether</span>
-        <img src='/tethernewlogo.svg' className='tetherLogo' />
+        <img
+          src='/tethernewlogo.svg'
+          className='tetherLogo'
+          alt='Tether Logo'
+        />
       </div>
       <div className='formInputs'>
         <span className='labels'>Amount to send:</span>
@@ -52,11 +57,14 @@ function TransactionForm({ userBalance }) {
         <span className='labels'>Sending to:</span>
         <Input
           type='text'
-          placeholder='Reciever'
+          placeholder='Receiver'
           value={receiverAddress}
           onChange={(e) => setReceiverAddress(e.target.value)}
-          status={isValidEthAddress ? "" : "error"}
+          status={receiverAddress !== "" && !isValidEthAddress ? "error" : ""}
         />
+        {receiverAddress !== "" && !isValidEthAddress && (
+          <div className='errorMessage'>Invalid Ethereum address format</div>
+        )}
       </div>
       <div className='buttonContainer'>
         {isConnected ? (
