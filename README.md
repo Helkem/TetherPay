@@ -1,6 +1,6 @@
 # TetherPay
 
-A Web3 React App to send Tether tokens to any ETH address.  
+A Web3 React App to send Stablecoins to any ETH address.  
 
 ## Description
 Connect your wallet and input any valid ETH address to send Tether tokens to anyone in the world.
