@@ -1,10 +1,10 @@
-# TetherPay
+# StablePay
 
 A Web3 React App to send Stablecoins to any ETH address.  
 
 ## Description
-Connect your wallet and input any valid ETH address to send Tether tokens to anyone in the world.
-Integrates the use of the Wagmi and Viem libraries to directly interact with the Tether ERC20 smart contract on ETH Mainnet along with Rainbow kit to connect the users Web3 Wallet.
+Connect your wallet and input any valid ETH address to send Stablecoins to anyone in the world.
+Integrates the use of the Wagmi and Viem libraries to directly interact with the ERC20 smart contract on ETH Mainnet along with Rainbow kit to connect the users Web3 Wallet.
 This application is built and connected to the official Ethereum mainet so do not send any real tokens unless you intend to.
 
 This application is built and connected to the official Ethereum mainet so do not send any real tokens unless you intend to.
